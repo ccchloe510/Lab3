@@ -36,7 +36,7 @@ At first, i added 2 blocks to prepare for the correct version of data to be load
 
 This module functions as a data selector. It chooses between different data inputs like the ALU result, data read from memory, the incremented program counter value, and then directs the chosen data to its output. This selection is based on the control signal provided to it. [(data mux module commit)](https://github.com/franfafdaf/IAC_23autumn_Group17-Coursework/commit/c4a6135593346b9a64454955b24c7be1a8a59d7b)
 
-![Data Memory and Data Mux]([image-1.png](https://drive.google.com/file/d/1meq9t_9Z3ZN9SdjNwCjRmWhrkpRerFcJ/view?usp=sharing))
+![Data Memory and Data Mux]([image-1.png](https://i.postimg.cc/nLRFR4zh/image-1.png))
 ___
 
 ## Cache
