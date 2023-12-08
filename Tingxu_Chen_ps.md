@@ -17,7 +17,7 @@ This module is central to controlling the program counter (PC) in the architectu
 - **Outputs:** It outputs the next program counter value (`PC`) and the incremented program counter value (`PC_Plus`).
 - **Functionality:** The module calculates the next PC value based on control signals. It selects between jump and branch addresses, and increments the PC accordingly.
 
-![program counter](image-2.png)
+[![image-2.png](https://i.postimg.cc/VNdQN3fz/image-2.png)](https://postimg.cc/3y5bSf0q)
 ___
 
 ## Data Memory Module
@@ -36,7 +36,7 @@ At first, i added 2 blocks to prepare for the correct version of data to be load
 
 This module functions as a data selector. It chooses between different data inputs like the ALU result, data read from memory, the incremented program counter value, and then directs the chosen data to its output. This selection is based on the control signal provided to it. [(data mux module commit)](https://github.com/franfafdaf/IAC_23autumn_Group17-Coursework/commit/c4a6135593346b9a64454955b24c7be1a8a59d7b)
 
-![Data Memory and Data Mux]([image-1.png](https://i.postimg.cc/nLRFR4zh/image-1.png))
+[![image-1.png](https://i.postimg.cc/nLRFR4zh/image-1.png)](https://postimg.cc/rd42ztxB)
 ___
 
 ## Cache
